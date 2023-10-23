@@ -1,0 +1,22 @@
+:host{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: antiquewhite;
+  .container{
+    background: mediumaquamarine;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 0.5px solid black;
+  }
+  .placeholder{
+    border: 0.5px solid black;
+  }
+}
